@@ -7,11 +7,17 @@ $diez: 10em;
 $marin: #354657;
 $cien: 100%;
 $grass: #27AD60;
-
+*{
+	font-family: Arial;
+}
 #mainNav{
 	background:$verde;
 }
-
+@mixin linea($blanc){
+    border:solid 1px $blanc;
+    margin-left: 40%;
+    margin-right:40%;	
+}
 @mixin colors($vein, $diez){
 	width: $vein;
     height: $diez;
@@ -150,9 +156,7 @@ h2{
 		margin-top: 20px;
 	}
 	hr{
-    	border:solid 1px $blanc;
-    	margin-left: 40%;
-    	margin-right:40%;
+    	@include linea($blanc)
     }
     img{
     	width: $cien;
@@ -175,9 +179,7 @@ h2{
 		color: $blanc;
 	}
 	hr{
-    	border:solid 1px $blanc;
-    	margin-left: 40%;
-    	margin-right:40%;
+    	@include linea($blanc)
     }
     p{
     	color: $blanc;
@@ -223,8 +225,73 @@ h2{
     	font-size: $grande;
     	margin-bottom: 200px;
     }
+    .equip{
+    	padding-bottom: -10%;
+    	padding: 15%;
+    	border-bottom: dashed 1px #999;
+    }
+    .somed{
+    	padding: 10%;
+    	margin-bottom: 150px;
+    }
+    .neg{
+	color: #bbb;
+    }
+    span{
+    	margin-left: 1em;
+    	margin-right: 1em;
+    }
 }
 .cont-j{
 	margin-left: 10%;
 	margin-right: 10%;
+}
+.best{
+	background-color: $marin;
+	margin-top: -20px;
+	padding-top: 100px;
+	hr{
+		@include linea($blanc)
+	}
+	h2, p{
+		margin-top: 10px;
+		color: $blanc;
+	}
+	.price{
+		margin-top: 6em;
+		margin-bottom: 4em;
+		width: $cien;
+		border:solid 1px $grass;
+	}
+	h3{
+		text-transform: uppercase;
+	}
+	.franja{
+		width: $cien;
+	}
+	.mon{
+		background-color: $grass;
+		color: $blanc;
+	}
+	span{
+		font-size: $grande;
+	}
+	.shiro{
+		padding: 0.1em;
+		background-color: $blanc;
+	}
+	p.kuro{
+		color: #000;
+	}
+	button{
+		margin: 2em;
+		font-size: $grande;
+		background-color: #666;
+		color:$blanc;
+	}
+}
+.price:hover{
+	margin-top: 4em;
+	margin-bottom: 6em;
+	border:solid 2px #FA6900;
 }

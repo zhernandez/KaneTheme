@@ -1,3 +1,6 @@
+* {
+  font-family: Arial; }
+
 #mainNav {
   background: #27AD60; }
 
@@ -165,9 +168,62 @@ h2 {
     margin-right: 15%;
     font-size: 200%;
     margin-bottom: 200px; }
+  .wedo .equip {
+    padding-bottom: -10%;
+    padding: 15%;
+    border-bottom: dashed 1px #999; }
+  .wedo .somed {
+    padding: 10%;
+    margin-bottom: 150px; }
+  .wedo .neg {
+    color: #bbb; }
+  .wedo span {
+    margin-left: 1em;
+    margin-right: 1em; }
 
 .cont-j {
   margin-left: 10%;
   margin-right: 10%; }
+
+.best {
+  background-color: #354657;
+  margin-top: -20px;
+  padding-top: 100px; }
+  .best hr {
+    border: solid 1px #fff;
+    margin-left: 40%;
+    margin-right: 40%; }
+  .best h2, .best p {
+    margin-top: 10px;
+    color: #fff; }
+  .best .price {
+    margin-top: 6em;
+    margin-bottom: 4em;
+    width: 100%;
+    border: solid 1px #27AD60; }
+  .best h3 {
+    text-transform: uppercase; }
+  .best .franja {
+    width: 100%; }
+  .best .mon {
+    background-color: #27AD60;
+    color: #fff; }
+  .best span {
+    font-size: 200%; }
+  .best .shiro {
+    padding: 0.1em;
+    background-color: #fff; }
+  .best p.kuro {
+    color: #000; }
+  .best button {
+    margin: 2em;
+    font-size: 200%;
+    background-color: #666;
+    color: #fff; }
+
+.price:hover {
+  margin-top: 4em;
+  margin-bottom: 6em;
+  border: solid 2px #FA6900; }
 
 /*# sourceMappingURL=main.css.map */
