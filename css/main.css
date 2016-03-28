@@ -198,7 +198,7 @@ h2 {
     color: #fff; }
   .best .price {
     margin-top: 6em;
-    margin-bottom: 4em;
+    margin-bottom: 8em;
     width: 100%;
     border: solid 1px #27AD60; }
   .best h3 {
@@ -220,10 +220,16 @@ h2 {
     font-size: 200%;
     background-color: #666;
     color: #fff; }
+  .best p.gry {
+    margin-top: 3em;
+    margin-left: 18%;
+    margin-right: 18%;
+    color: #ccc;
+    font-size: 150%; }
 
 .price:hover {
   margin-top: 4em;
-  margin-bottom: 6em;
+  margin-bottom: 10em;
   border: solid 2px #FA6900; }
 
 /*# sourceMappingURL=main.css.map */
