@@ -1,0 +1,173 @@
+#mainNav {
+  background: #27AD60; }
+
+header {
+  background: url(../img/carousel-bg.jpg);
+  width: 100%;
+  height: 500px;
+  background-position: center center;
+  background-attachment: fixed; }
+  header h2 {
+    color: #fff;
+    margin-top: 100px; }
+  header p {
+    color: #fff;
+    font-size: 200%; }
+
+h2 {
+  font-size: 400%;
+  text-transform: uppercase; }
+
+.paleta {
+  background: #fff; }
+  .paleta hr {
+    border: solid 1px #000;
+    margin-left: 40%;
+    margin-right: 40%; }
+  .paleta .color1 {
+    background: #69d2e7;
+    width: 20%;
+    height: 10em; }
+  .paleta .color2 {
+    background: #a7dbdb;
+    width: 20%;
+    height: 10em; }
+  .paleta .color3 {
+    background: #e0e4cc;
+    width: 20%;
+    height: 10em; }
+  .paleta .color4 {
+    background: #f38630;
+    width: 20%;
+    height: 10em; }
+  .paleta .color5 {
+    background: #fa6900;
+    width: 20%;
+    height: 10em; }
+
+.barracolor {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 15px; }
+
+.barra2 .color1 {
+  background: #E94C6F; }
+.barra2 .color2 {
+  background: #542733;
+  color: #fff; }
+.barra2 .color3 {
+  background: #5A6A62; }
+.barra2 .color4 {
+  background: #C6D5CD; }
+.barra2 .color5 {
+  background: #FDF200; }
+
+.barra3 .color1 {
+  background: #DB3340; }
+.barra3 .color2 {
+  background: #E8B71A; }
+.barra3 .color3 {
+  background: #F7EAC8; }
+.barra3 .color4 {
+  background: #1FDA9A; }
+.barra3 .color5 {
+  background: #28ABE3; }
+
+.barra4 .color1 {
+  background: #588C73; }
+.barra4 .color2 {
+  background: #F2E394; }
+.barra4 .color3 {
+  background: #F2AE72; }
+.barra4 .color4 {
+  background: #D96459; }
+.barra4 .color5 {
+  background: #8C4646; }
+
+.barra5 {
+  margin-bottom: 15px; }
+  .barra5 .color1 {
+    background: #D0C91F; }
+  .barra5 .color2 {
+    background: #85C4B9; }
+  .barra5 .color3 {
+    background: #008BBA; }
+  .barra5 .color4 {
+    background: #DF514C; }
+  .barra5 .color5 {
+    background: #DC403B; }
+
+.about {
+  background: #354657;
+  padding: 100px 0;
+  margin-top: 20px; }
+  .about h2 {
+    color: #fff;
+    margin-top: 20px; }
+  .about hr {
+    border: solid 1px #fff;
+    margin-left: 40%;
+    margin-right: 40%; }
+  .about img {
+    width: 100%;
+    height: auto; }
+  .about p {
+    color: #fff;
+    font-family: Arial;
+    font-size: 16px; }
+  .about .top {
+    margin-top: 70px; }
+
+.wedo {
+  margin-top: -20px;
+  background: #27AD60;
+  padding-top: 100px; }
+  .wedo h2 {
+    color: #fff; }
+  .wedo hr {
+    border: solid 1px #fff;
+    margin-left: 40%;
+    margin-right: 40%; }
+  .wedo p {
+    color: #fff;
+    font-family: Arial; }
+  .wedo .boxi {
+    width: 100%;
+    padding: 10%; }
+  .wedo .boxi:hover {
+    background-color: rgba(0, 0, 0, 0.3); }
+  .wedo .iconi {
+    margin: 20px 15%;
+    background-image: url(../img/icon-bg.png);
+    background-position: center center;
+    height: auto;
+    background-color: #354657;
+    padding: 10%;
+    padding-top: 5%; }
+  .wedo .iconi:hover {
+    background-image: url(../img/icon-bg.png);
+    background-position: center center;
+    background-color: #FA6900; }
+  .wedo img {
+    width: 100%; }
+  .wedo h3 {
+    color: #fff;
+    margin-top: 20%;
+    font-size: 200%; }
+  .wedo button {
+    width: 70%;
+    color: #fff;
+    background-color: #354657;
+    text-transform: uppercase;
+    margin-top: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 200%;
+    margin-bottom: 200px; }
+
+.cont-j {
+  margin-left: 10%;
+  margin-right: 10%; }
+
+/*# sourceMappingURL=main.css.map */

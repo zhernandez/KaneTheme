@@ -1,0 +1,230 @@
+$verde: #27AD60;
+$blanc: #fff;
+$enorme: 400%;
+$grande: 200%;
+$vein: 20%;
+$diez: 10em;
+$marin: #354657;
+$cien: 100%;
+$grass: #27AD60;
+
+#mainNav{
+	background:$verde;
+}
+
+@mixin colors($vein, $diez){
+	width: $vein;
+    height: $diez;
+} 
+header{
+	background: url(../img/carousel-bg.jpg);
+	width: 100%;
+	height: 500px;
+	background-position: center center;
+	background-attachment: fixed;
+	h2{
+		color:$blanc;
+		margin-top: 100px;
+	}
+	p{
+		color: $blanc;
+		font-size: $grande;
+	}
+}
+h2{
+    font-size:$enorme;
+    text-transform: uppercase;
+}
+.paleta{
+    background: $blanc;
+    hr{
+    	border:solid 1px #000;
+    	margin-left: 40%;
+    	margin-right:40%;
+    }
+    .color1{
+    	background: #69d2e7;
+    	@include colors($vein, $diez)
+    	
+    }
+    .color2{
+    	background: #a7dbdb;
+    	@include colors($vein, $diez)
+
+    }
+    .color3{
+    	background: #e0e4cc;
+    	@include colors($vein, $diez)
+    }
+    .color4{
+    	background: #f38630;
+    	@include colors($vein, $diez)
+    }
+    .color5{
+    	background: #fa6900;
+    	@include colors($vein, $diez)
+    }
+}
+.barracolor{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 15px;
+}
+.barra2{
+	.color1{
+		background: #E94C6F;
+	}
+	.color2{
+		background: #542733;
+		color: $blanc; 
+	}
+	.color3{
+		background: #5A6A62;
+	}
+	.color4{
+		background: #C6D5CD;
+	}
+	.color5{
+		background: #FDF200;
+	}
+}
+.barra3{
+	.color1{
+		background: #DB3340; 
+	}
+	.color2{
+		background: #E8B71A;
+	}
+	.color3{
+		background: #F7EAC8;
+	}
+	.color4{
+		background: #1FDA9A;
+	}
+	.color5{
+		background: #28ABE3;
+	}
+}
+.barra4{
+	.color1{
+		background: #588C73;
+	}
+	.color2{
+		background: #F2E394;
+	}
+	.color3{
+		background: #F2AE72;
+	}
+	.color4{
+		background: #D96459;
+	}
+	.color5{
+		background: #8C4646;
+	}
+}
+.barra5{
+	margin-bottom: 15px;
+	.color1{
+		background: #D0C91F;
+	}
+	.color2{
+		background: #85C4B9;
+	}
+	.color3{
+		background: #008BBA;
+	}
+	.color4{
+		background: #DF514C;
+	}
+	.color5{
+		background: #DC403B;
+	}
+}
+.about{
+	background: $marin;
+	padding: 100px 0;
+	margin-top: 20px;
+	h2{
+		color:$blanc;
+		margin-top: 20px;
+	}
+	hr{
+    	border:solid 1px $blanc;
+    	margin-left: 40%;
+    	margin-right:40%;
+    }
+    img{
+    	width: $cien;
+    	height: auto;
+    }	
+    p{
+    	color: $blanc;
+    	font-family: Arial;
+    	font-size: 16px;
+    }
+    .top{
+    	margin-top: 70px;
+    }
+}
+.wedo{
+	margin-top: -20px;
+	background: $grass;
+	padding-top: 100px;
+	h2{
+		color: $blanc;
+	}
+	hr{
+    	border:solid 1px $blanc;
+    	margin-left: 40%;
+    	margin-right:40%;
+    }
+    p{
+    	color: $blanc;
+    	font-family: Arial;
+    }
+    .boxi{
+    	width: $cien;
+    	padding: 10%;
+    }
+    .boxi:hover{
+    	background-color: rgba(0,0,0,0.3);
+    }
+    .iconi{
+    	margin: 20px 15%;
+    	background-image: url(../img/icon-bg.png);
+    	background-position: center center;
+    	height: auto;
+    	background-color: $marin;
+    	padding: 10%;
+    	padding-top: 5%;
+    }
+    .iconi:hover{
+    	background-image: url(../img/icon-bg.png);
+    	background-position: center center;
+    	background-color: #FA6900;
+    }
+    img{
+    	width: $cien;
+    }
+    h3{
+    	color: $blanc;
+    	margin-top: $vein;
+    	font-size: $grande;
+    }
+    button{
+    	width: 70%;
+    	color: $blanc;
+    	background-color: $marin;
+    	text-transform: uppercase;
+    	margin-top: $vein;
+    	margin-left:15%;
+    	margin-right: 15%;
+    	font-size: $grande;
+    	margin-bottom: 200px;
+    }
+}
+.cont-j{
+	margin-left: 10%;
+	margin-right: 10%;
+}
